@@ -38,17 +38,17 @@ const BbaProgram = () => {
                             </TableHeader>
                             <TableBody>
                                 <TableRow>
-                                    <TableCell>>= 4.0 / 1st</TableCell>
-                                    <TableCell>>= 4.0 / 1st</TableCell>
-                                    <TableCell>>= 3.0</TableCell>
-                                    <TableCell>>= 2.5</TableCell>
+                                    <TableCell>{">="} 4.0 / 1st</TableCell>
+                                    <TableCell>{">="} 4.0 / 1st</TableCell>
+                                    <TableCell>{">="} 3.0</TableCell>
+                                    <TableCell>{">="} 2.5</TableCell>
                                     <TableCell>3</TableCell>
                                 </TableRow>
                                 <TableRow>
-                                    <TableCell>>= 3.5 / 2nd</TableCell>
-                                    <TableCell>>= 3.5 / 2nd</TableCell>
-                                    <TableCell>>= 2.5</TableCell>
-                                    <TableCell>>= 2.0</TableCell>
+                                    <TableCell>{">="} 3.5 / 2nd</TableCell>
+                                    <TableCell>{">="} 3.5 / 2nd</TableCell>
+                                    <TableCell>{">="} 2.5</TableCell>
+                                    <TableCell>{">="} 2.0</TableCell>
                                     <TableCell>3</TableCell>
                                 </TableRow>
                             </TableBody>
