@@ -1,5 +1,6 @@
 import { Toaster } from 'sonner'
-import Page from './app/dashboard/page'
+import Navbar from './myCompo/Navbar'
+import { Outlet } from 'react-router-dom'
 
 
 
@@ -7,7 +8,8 @@ function App() {
   return (
     <>
       <Toaster />
-      <Page></Page>
+      <Navbar></Navbar>
+      <Outlet />
 
     </>
   )

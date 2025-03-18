@@ -161,7 +161,7 @@ export function AppSidebar({
   ...props
 }) {
   return (
-    <Sidebar collapsible="icon" {...props}>
+    <Sidebar className="top-9 h-[calc(100%-36px)]" collapsible="icon" {...props}>
       <SidebarHeader>
         <TeamSwitcher teams={data.teams} />
       </SidebarHeader>
