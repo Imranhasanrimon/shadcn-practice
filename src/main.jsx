@@ -10,6 +10,7 @@ import Home from './pages/Home';
 import Dashboard from './app/dashboard/Dashboard';
 import History from './pages/aboutUs/History';
 import BbaProgram from './pages/admissions/BbaProgram';
+import { ThemeProvider } from './providers/theme-provider';
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+      <RouterProvider router={router} />
+    </ThemeProvider>
   </StrictMode>,
 )

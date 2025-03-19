@@ -17,6 +17,7 @@ import { Link } from "react-router-dom";
 import { IoMdHome } from "react-icons/io";
 import { MdSpaceDashboard } from "react-icons/md";
 import { Telescope, Focus, History, Crosshair, Mail } from "lucide-react";
+import { ModeToggle } from "@/components/mode-toggle";
 
 
 const Navbar = () => {
@@ -122,6 +123,7 @@ const Navbar = () => {
                     <MenubarItem inset>Add Profile...</MenubarItem>
                 </MenubarContent>
             </MenubarMenu>
+            <ModeToggle></ModeToggle>
         </Menubar>
     );
 };
